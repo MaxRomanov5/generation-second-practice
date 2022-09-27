@@ -1,0 +1,471 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+address {
+    font-style: normal;
+}
+:root{
+   --logo-color: #173A56;
+   --main-color: #22343D;
+   --accent-color: #02897A;
+   --secondary-color: #02897A;
+   --white-color: #fff;
+   --additional-text-color: #2F281E;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-color);
+    font-weight: 400;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.container{
+    width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+ 
+}
+
+.section-title{
+
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+
+/* HEADER */
+
+.logo-text{
+    display: block;
+    color: var(--logo-color);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    margin-bottom: 0;
+}
+
+.menu-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--main-color);
+}
+
+.current {
+    font-weight: 600;
+}
+
+.button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.button.secondary-button{
+    color: var(--logo-color);
+    border: 1px solid #BCD0E5;
+    
+    background-color: var(--white-color);
+    min-width: 102px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 24px;
+    padding-right: 23px;
+
+}
+
+.primary-buttom{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: 1px transparent;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 24px;
+    padding-right: 23px;
+
+}
+
+/* HERO */
+
+.hero-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.hero-description{
+    font-size: 18px;
+    line-height: 1.56;
+}
+
+.hero-button{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: inherit;
+        text-align: center;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 0;
+        color: var(--white-color);
+        background-color: var(--accent-color);
+        border: transparent;
+        padding: 15px 42px;
+        min-width: 178px;
+}
+
+.video-link{
+    color: var(--accent-color);
+    text-decoration: underline;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Product was Built Specifically for You */
+
+
+
+
+
+.specific-item-title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 13px;
+}
+
+.specific-item-text{
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.specific-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: transparent;
+    padding: 15px 33px;
+    min-width: 109px;
+}
+
+/* MANAGEMENT */
+
+.sub-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card-description{
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.card-item{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+/* EMPLOYEES */
+
+.employees-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.employees-descr{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.emloyees-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: transparent;
+    padding: 15px 30px;
+    min-width: 216px;
+}
+
+/* STRATEGIES */
+
+.strategies-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.5;
+}
+
+.strategies-descr{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.strategies-item-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.strategies-item-author{
+    font-weight: 700;
+}
+
+.item-offer{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.66;
+}
+
+
+/* PRICE TABLE */
+
+.price-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.5;
+}
+
+.price-descr{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.price-offer-descr{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+
+.price .price-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.32;
+    font-size: 76px;
+    letter-spacing: 0.2px;
+    color: var(--accent-color);
+}
+
+.price-term .price-dollar{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: var(--accent-color);
+}
+
+.price-term .price-term-descr{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.1px;
+    color: #AFAFAF;
+}
+
+.price-benefits .price-benefits-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 0.2px;
+    /* text-align: center ; */
+}
+
+.price-button{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: transparent;
+    padding: 11px 19px;
+    min-width: 102px;
+}
+
+.price-button:hover,
+.price-button:focus{
+    color: var(--accent-color);
+    background-color: var(--white-color);
+}
+
+/* CLIENTS */
+
+.clients-title{
+    font-weight: 700;
+        font-size: 32px;
+        line-height: 1.78;
+        letter-spacing: 0.2px;
+}
+
+.clients-descr{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.75;
+        /* text-align: center; */
+        letter-spacing: 0.2px;
+}
+
+.client-review{
+        font-size: 16px;
+        line-height: 1.75;
+        letter-spacing: 0.2px;
+        color: #737373;
+}
+
+.clients-name{
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.2px;
+        color: var(--accent-color)
+}
+
+.clients-position{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.2px;
+        color: #252B42;
+}
+
+/* 100 COMPANIES */
+
+.companies-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+    /* color: var(--white-color) */
+}
+
+.companies-button{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: inherit;
+        text-align: center;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 0;
+        color: var(--accent-color);
+        background-color: var(--white-color);
+        border: transparent;
+        padding: 10px 34px;
+        min-width: 82px;
+}
+
+/* FOOTER */
+
+.footer-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer-list-item{
+    font-size: 16px;
+    line-height: 2.19;
+}
+
+.footer-button{
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: inherit;
+        text-align: center;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 0;
+        color: var(--white-color);
+        background-color: var(--accent-color);
+        border: transparent;
+        padding: 8px 15px;
+        min-width: 131px;
+}
+
+.copyright{
+    font-style: 16px;
+    line-height: 1.88;
+}
+
+
+
+
+
+/* ////////your code */
