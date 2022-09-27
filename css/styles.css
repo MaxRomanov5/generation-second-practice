@@ -469,3 +469,47 @@ body{
 
 
 /* ////////your code */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logotype{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    margin-right: 16px;
+
+}
+.page-nav{
+    display: flex;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    align-items: center;
+
+}
+
+.menu-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 24px;
+
+
+
+}
+
+.menu-button{
+    display: flex;
+    align-items: center;
+    gap:24px;
+    margin-right: 29px;
+}
+
+.secondary-button{
+
+}
