@@ -35,6 +35,7 @@ a {
 address {
   font-style: normal;
 }
+
 :root {
   --logo-color: #173a56;
   --main-color: #22343d;
@@ -467,6 +468,7 @@ body {
 .logo-img {
   margin-right: 16px;
 }
+
 .page-nav {
   display: flex;
   padding-top: 26px;
@@ -488,8 +490,7 @@ body {
   margin-right: 29px;
 }
 
-.secondary-button {
-}
+.secondary-button {}
 
 /* HERO */
 
@@ -522,4 +523,95 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+
+
+/* ============================== */
+
+
+.price {
+  padding-bottom: 90px;
+}
+
+.price-title {
+  text-align: center;
+}
+
+.price-descr {
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+.price-list {
+  display: flex;
+  gap: 72px;
+}
+
+.list {}
+
+.price-item {
+  padding: 32px 10px;
+  text-align: center;
+  width: 322px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.item-offer {
+  margin-bottom: 7px;
+}
+
+.price-offer-descr {
+  margin-bottom: 16px;
+}
+
+.price-value {
+  margin-right: 7px;
+}
+
+.price-dollar {}
+
+.price-term-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.price-benefits {
+  margin-bottom: 30px;
+}
+
+.price-benefits-item {}
+
+.price-benefits-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.price-button {}
+
+.price-dollar {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--accent-color);
+  text-align: left;
+}
+
+/* \\\\ */
+.price-sign {}
+
+.price-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.term-wrap {
+  display: flex;
+  flex-direction: column;
+
 }
