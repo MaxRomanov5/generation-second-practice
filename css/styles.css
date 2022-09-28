@@ -646,3 +646,18 @@ body {
   flex-direction: column;
 
 }
+.specific-list {
+  display: flex;
+}
+.specific-icon {
+fill: white;
+}
+.icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #02897A;
+border-radius: 19px;
+width: 54px;
+height: 54px;
+}
