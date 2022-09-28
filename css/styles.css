@@ -275,14 +275,18 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.66;
+
+  color: var(--main-color);
 }
 
 /* PRICE TABLE */
 
 .price-title {
+
   font-weight: 700;
   font-size: 34px;
   line-height: 1.5;
+
 }
 
 .price-descr {
@@ -295,6 +299,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 2.5;
+  color: var(--main-color);
 }
 
 .price .price-item {
@@ -329,6 +334,7 @@ body {
   font-size: 16px;
   line-height: 1.38;
   letter-spacing: 0.2px;
+  color: var(--main-color);
   /* text-align: center ; */
 }
 
@@ -354,6 +360,31 @@ body {
   background-color: var(--white-color);
 }
 
+.price-item:hover{
+  background-color: var(--accent-color);
+}
+.price-item:hover .item-offer {
+  color: white;
+}
+.price-item:hover .price-offer-descr {
+  color: white;
+}
+.price-item:hover .price-benefits-item {
+  color: white;
+}
+.price-item:hover .price-term-descr {
+  color: #E0E0E0;
+}
+.price-item:hover .price-value {
+  color: white;
+}
+.price-item:hover .price-dollar {
+  color: white;
+}
+.price-item:hover .price-button {
+  background-color: white;
+  color: var(--accent-color);
+}
 /* CLIENTS */
 
 .clients-title {
