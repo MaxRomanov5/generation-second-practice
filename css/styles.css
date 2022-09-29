@@ -117,6 +117,8 @@ body {
   padding-bottom: 9px;
   padding-left: 24px;
   padding-right: 23px;
+
+  animation: pulse 2s infinite;
 }
 
 .primary-buttom {
