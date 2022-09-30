@@ -722,3 +722,47 @@ body {
 .current::after {
   opacity: 1;
 }
+.switch {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  border: 0;
+}
+.check {
+  display: block;
+}
+.toggle-wrap {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 40px;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 34px;
+  transition: background-color 500ms linear;
+}
+
+.toggle {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 500ms linear;
+}
+
+.switch:checked + .toggle-wrap {
+  background-color: var(--accent-color);
+}
+.switch:checked + .toggle-wrap .toggle{
+  transform: translate(35px, -50%); 
+}
