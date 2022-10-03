@@ -93,3 +93,11 @@
   padding-left: 24px;
   padding-right: 23px;
 }
+
+.hero-button{
+  @extend %hero-button;
+}
+
+.price-wrap{
+  @include center-flex($ai:baseline);
+}

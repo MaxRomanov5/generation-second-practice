@@ -90,7 +90,7 @@ body {
   line-height: 1.56;
 }
 
-.hero-button {
+/* .hero-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
@@ -104,7 +104,7 @@ body {
   border: transparent;
   padding: 15px 42px;
   min-width: 178px;
-}
+} */
 
 .video-link {
   color: var(--accent-color);
@@ -551,12 +551,12 @@ body {
 /* \\\\ */
 .price-sign {}
 
-.price-wrap {
+/* .price-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 16px; */
-}
+  
+} */
 
 .term-wrap {
   display: flex;

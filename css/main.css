@@ -7,6 +7,22 @@
   --additional-text-color: #2f281e;
 }
 
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: transparent;
+  padding: 15px 42px;
+  min-width: 178px;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,4 +133,16 @@
   padding-bottom: 9px;
   padding-left: 24px;
   padding-right: 23px;
+}
+
+.price-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }/*# sourceMappingURL=main.css.map */
