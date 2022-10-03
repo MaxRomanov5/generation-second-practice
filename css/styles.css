@@ -76,60 +76,6 @@ body {
 
 /* HEADER */
 
-.logo-text {
-  display: block;
-  color: var(--logo-color);
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 0.93;
-  margin-bottom: 0;
-}
-
-.menu-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.75;
-  color: var(--main-color);
-}
-
-.current {
-  font-weight: 600;
-}
-
-.button {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: inherit;
-  text-align: center;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0;
-}
-
-.button.secondary-button {
-  color: var(--logo-color);
-  border: 1px solid #bcd0e5;
-
-  background-color: var(--white-color);
-  min-width: 102px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 24px;
-  padding-right: 23px;
-
-  animation: pulse 2s infinite;
-}
-
-.primary-buttom {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  border: 1px transparent;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 24px;
-  padding-right: 23px;
-}
 
 /* HERO */
 
@@ -363,28 +309,36 @@ body {
 .price-item:hover {
   background-color: var(--accent-color);
 }
+
 .price-item:hover .item-offer {
   color: white;
 }
+
 .price-item:hover .price-offer-descr {
   color: white;
 }
+
 .price-item:hover .price-benefits-item {
   color: white;
 }
+
 .price-item:hover .price-term-descr {
   color: #e0e0e0;
 }
+
 .price-item:hover .price-value {
   color: white;
 }
+
 .price-item:hover .price-dollar {
   color: white;
 }
+
 .price-item:hover .price-button {
   background-color: white;
   color: var(--accent-color);
 }
+
 /* CLIENTS */
 
 .clients-title {
@@ -485,44 +439,9 @@ body {
 }
 
 /* ////////your code */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.logotype {
-  display: flex;
-  align-items: center;
-}
 
-.logo-img {
-  margin-right: 16px;
-}
-
-.page-nav {
-  display: flex;
-  padding-top: 26px;
-  padding-bottom: 26px;
-  align-items: center;
-}
-
-.menu-nav {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  margin-right: 24px;
-}
-
-.menu-button {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  margin-right: 29px;
-}
-
-.secondary-button {
-}
+.secondary-button {}
 
 /* HERO */
 
@@ -577,8 +496,7 @@ body {
   gap: 72px;
 }
 
-.list {
-}
+.list {}
 
 .price-item {
   padding: 32px 10px;
@@ -601,8 +519,7 @@ body {
   margin-right: 7px;
 }
 
-.price-dollar {
-}
+.price-dollar {}
 
 .price-term-descr {
   font-weight: 400;
@@ -611,18 +528,16 @@ body {
 }
 
 .price-benefits {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
-.price-benefits-item {
-}
+.price-benefits-item {}
 
 .price-benefits-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.price-button {
-}
+.price-button {}
 
 .price-dollar {
   font-family: "Inter", sans-serif;
@@ -634,26 +549,28 @@ body {
 }
 
 /* \\\\ */
-.price-sign {
-}
+.price-sign {}
 
 .price-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .term-wrap {
   display: flex;
   flex-direction: column;
 }
+
 .specific-list {
   display: flex;
 }
+
 .specific-icon {
   fill: white;
 }
+
 .icon-wrap {
   display: flex;
   justify-content: center;
@@ -672,14 +589,14 @@ body {
 
 .backdrop {
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.modal{
+.modal {
   width: 300px;
   height: 300px;
   background-color: #fff;
@@ -689,7 +606,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.no-scroll{
+.no-scroll {
   overflow: hidden;
 }
 
@@ -703,9 +620,11 @@ body {
 .menu-link {
   position: relative;
 }
-.menu-link:hover::after{
+
+.menu-link:hover::after {
   opacity: 1;
 }
+
 .menu-link::after {
   opacity: 0;
   display: block;
@@ -718,10 +637,12 @@ body {
   border-radius: 50%;
 
   background-color: #02897a;
-} 
+}
+
 .current::after {
   opacity: 1;
 }
+
 .switch {
   width: 1px;
   height: 1px;
@@ -733,9 +654,11 @@ body {
   overflow: hidden;
   border: 0;
 }
+
 .check {
   display: block;
 }
+
 .toggle-wrap {
   position: relative;
   top: 0;
@@ -763,6 +686,7 @@ body {
 .switch:checked + .toggle-wrap {
   background-color: var(--accent-color);
 }
-.switch:checked + .toggle-wrap .toggle{
-  transform: translate(35px, -50%); 
+
+.switch:checked + .toggle-wrap .toggle {
+  transform: translate(35px, -50%);
 }

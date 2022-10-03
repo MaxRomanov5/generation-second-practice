@@ -1,0 +1,120 @@
+:root {
+  --logo-color: #173a56;
+  --main-color: #22343d;
+  --accent-color: #02897a;
+  --secondary-color: #02897a;
+  --white-color: #fff;
+  --additional-text-color: #2f281e;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logotype {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-img {
+  margin-right: 16px;
+}
+
+.page-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  margin-right: 24px;
+}
+
+.menu-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+  margin-right: 29px;
+}
+
+.logo-text {
+  display: block;
+  color: var(--logo-color);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  margin-bottom: 0;
+}
+
+.menu-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--main-color);
+}
+
+.current {
+  font-weight: 600;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.button.secondary-button {
+  color: var(--logo-color);
+  border: 1px solid #bcd0e5;
+  background-color: var(--white-color);
+  min-width: 102px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 24px;
+  padding-right: 23px;
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
+}
+
+.primary-buttom {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: 1px transparent;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 24px;
+  padding-right: 23px;
+}/*# sourceMappingURL=main.css.map */
