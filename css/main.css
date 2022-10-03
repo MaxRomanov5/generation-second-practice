@@ -145,4 +145,33 @@
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+.main__auto-wrap {
+  width: 900px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.auto-wrap {
+  height: 300px;
+  width: 300px;
+}
+
+.audi {
+  background-image: url("../images/audi.jpg");
+}
+
+.bmw {
+  background-image: url("../images/bmw.jpg");
+}
+
+.mercedes {
+  background-image: url("../images/mercedes.jpg");
+}
+
+.tesla {
+  background-image: url("../images/tesla.jpg");
 }/*# sourceMappingURL=main.css.map */

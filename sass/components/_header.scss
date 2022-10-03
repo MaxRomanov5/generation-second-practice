@@ -101,3 +101,18 @@
 .price-wrap{
   @include center-flex($ai:baseline);
 }
+
+.main__auto-wrap {
+  width: 900px;
+  height: 300px;
+  display: flex;
+}
+
+.auto-wrap {
+  height: 300px;
+  width: 300px;
+}
+
+@each $auto in audi, bmw, mercedes, tesla {
+  .#{$auto} {background-image: url('../images/#{$auto}.jpg') ;}
+}
