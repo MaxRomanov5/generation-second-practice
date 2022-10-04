@@ -1,13 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,AAAA,KAAK,AAAC,CACJ,YAAY,CAAA,QAAC,CACb,YAAY,CAAA,QAAC,CACb,cAAc,CAAA,QAAC,CACf,iBAAiB,CAAA,QAAC,CAClB,aAAa,CAAA,KAAC,CACd,uBAAuB,CAAA,QAAC,CACzB,AGiHD,AAAA,WAAW,AAAA,CACT,OAAO,CAAE,IAAI,CACb,GAAG,CAAE,IAAI,CACV,AAGD,AAAA,WAAW,AAAC,CACV,OAAO,CAAE,SAAS,CAClB,UAAU,CAAE,MAAM,CAClB,KAAK,CAAE,KAAK,CACZ,UAAU,CAAE,OAAO,CACnB,UAAU,CAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,gBAAmB,CAC3C,aAAa,CAAE,GAAG,CACnB",
-    "sources": [
-        "../sass/main.scss",
-        "../sass/utils/_variables.scss",
-        "../sass/utils/_placeholders.scss",
-        "../sass/utils/_mixin.scss",
-        "../sass/components/_header.scss"
-    ],
-    "names": [],
-    "file": "main.min.css"
-}
+{"version":3,"sources":["../sass/utils/_variables.scss","../sass/components/_header.scss"],"names":[],"mappings":"AAAA,MACE,qBAAA,CACA,qBAAA,CACA,uBAAA,CACA,0BAAA,CACA,mBAAA,CACA,gCAAA,CCiHF,YACE,iBAAA,CACA,iBAAA,CACA,kBAAA,CACA,WAAA,CACA,eAAA,CACA,8CAAA,CAAA,sCAAA,CACA,iBAAA,CAEF,qCACE,YACE,mBAAA,CAAA,mBAAA,CAAA,YAAA,CACA,kBAAA,CAAA,cAAA,CACA,QAAA,CACA,WAAA,CAAA,CAIJ,sCACE,YACE,mBAAA,CAAA,mBAAA,CAAA,YAAA,CACA,QAAA,CACA,UAAA,CAAA","file":"main.min.css"}
