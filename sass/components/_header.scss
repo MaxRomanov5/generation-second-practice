@@ -169,3 +169,36 @@ img {
     width: 270px;
   }
 }
+
+.thumb{
+  max-width: 1600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/responsive/barber-s-@x1.jpg");
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("../images/responsive/barber-s-@x2.jpg");
+   }
+  @media screen and (min-width: 481px){
+    background-image: url("../images/responsive/barber-m-@x1.jpg");
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url("../images/responsive/barber-m-@x2.jpg");
+      }
+  }
+  @media screen and (min-width: 769px){
+  background-image: url("../images/responsive/barber-l-@x1.jpg");
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image: url("../images/responsive/barber-l-@x2.jpg");
+  }
+}
+}
