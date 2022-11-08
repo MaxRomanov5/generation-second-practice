@@ -50,6 +50,26 @@
 @media screen and (min-width: 768px) {
   .price-item {
     margin-bottom: 0;
+@media screen and (max-width: 767.98px) {
+  .price-item {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .price-list {
+    gap: 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .price-list {
+    width: 720px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -76,3 +96,56 @@ img {
   }
 }
 /*# sourceMappingURL=main.css.map */
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .thumb {
+    max-width: 418px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .thumb {
+    width: 330px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .thumb {
+    width: 270px;
+  }
+}
+
+.thumb {
+  max-width: 1600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/responsive/barber-s-@x1.jpg");
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .thumb {
+    background-image: url("../images/responsive/barber-s-@x2.jpg");
+  }
+}
+@media screen and (min-width: 481px) {
+  .thumb {
+    background-image: url("../images/responsive/barber-m-@x1.jpg");
+  }
+}
+@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
+  .thumb {
+    background-image: url("../images/responsive/barber-m-@x2.jpg");
+  }
+}
+@media screen and (min-width: 769px) {
+  .thumb {
+    background-image: url("../images/responsive/barber-l-@x1.jpg");
+  }
+}
+@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
+  .thumb {
+    background-image: url("../images/responsive/barber-l-@x2.jpg");
+  }
+}/*# sourceMappingURL=main.css.map */
